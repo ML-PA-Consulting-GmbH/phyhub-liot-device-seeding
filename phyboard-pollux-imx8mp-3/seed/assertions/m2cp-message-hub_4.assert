@@ -1,0 +1,68 @@
+type: snap-revision
+authority-id: mlpa
+snap-sha3-384: DcEi0Rpqfs3ZGaeapFKQ-Kkiwr0ejun_cSkC0F3vaeV-qdTMcGx4ObLuGfiaYISg
+developer-id: mlpa
+provenance: global-upload
+snap-id: 4d709cc4c21d9177578b595485ec23ae
+snap-revision: 4
+snap-size: 10379264
+timestamp: 2026-05-12T10:14:00.7143774Z
+sign-key-sha3-384: BlwD0X1tYzEWIu7iUI6bk4L53up2PzR-zfgqc0cHXhyzmC5iW7g3qHqUk7AgmdCo
+
+AcLBUgQAAQoABgUCagL9aQAAa9cQAE1l2U3DFxyjKxA2C6Iy5xRp/4bxA4TBbANvGO9/DAeKorOl
+J1HXsdZdj7d5ONCVUYWWe1GdCihBjeiN9wTKkWIFrCu1Vb+xozYLwFUSfzZWe1iaKUXBEpo2qoe0
+hCraXcEKaf4wmww6m55XUYp0PsCXp9toKtFIFmGRMrtswBuRkLf+7r32PKfOMcvDSlYTqDTM7SLK
+8OZY1yKd6E6Xzj6EdU9P6MpW2qDkiVAbhQ0eafw3i8Kz1jRcR4BnKhIKyypK+fOvHqQZZq7YWHel
+i1jo8A28cJqT+CLdvYfixf4xe2qTKfUl51fxxMjY6E06mPq9NbMefIVbCQHwIUJ75Sv25kYEenjd
+cHq5WFxMxZ0oTNi39GwT7xPLLGWjLzToxf2f0tZa7tQWx+GzxQ5UYIkS5C2m/tdJbnFnlJdKmDF7
+6JqIWMX7sOFFxBdsLsSd5bm7Y0KKogodTx1GGowItkXmHUV9nBw+Ix7TfI1bGXctP4c6tzJyWO0i
+uYYuQehSeUwanpRJkHckf3Wq0aYpZbH1RX+yIauU/KLJVtmqcBWKG3rVyqH11h4muyr+B8Vv3Cko
+clTZZtN7Il6qwzkOtOKAnq1YOkxGdazZSbcrDzBmK/FdL3WWHbeOzkwVriLLvtUWPN0B1pbZEc/G
+GZbDnhCLXAznwplwfZIf6jVRLMtM
+
+type: snap-declaration
+format: 5
+authority-id: mlpa
+revision: 4
+series: 16
+snap-id: 4d709cc4c21d9177578b595485ec23ae
+plugs:
+  network:
+    allow-auto-connection: true
+    allow-installation: true
+  network-bind:
+    allow-auto-connection: true
+    allow-installation: true
+  network-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network-observe:
+    allow-auto-connection: true
+    allow-installation: true
+  network-setup-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network-setup-observe:
+    allow-auto-connection: true
+    allow-installation: true
+  network-status:
+    allow-auto-connection: true
+    allow-installation: true
+  system-observe:
+    allow-auto-connection: true
+    allow-installation: true
+publisher-id: mlpa
+snap-name: m2cp-message-hub
+timestamp: 2026-05-12T10:14:00.3415460Z
+sign-key-sha3-384: BlwD0X1tYzEWIu7iUI6bk4L53up2PzR-zfgqc0cHXhyzmC5iW7g3qHqUk7AgmdCo
+
+AcLBUgQAAQoABgUCagL9aAAA2AEQAIVkQ3ZAzz1yzGnX79Z7KWa10KmUAT4F4ogF+0XGboB7xLbJ
+8i47V8553wYcLkhoFRhpR76hI15aqVKIm8pqH6hJy7HBTXPMfpu6iCm+jlRHxVjhygqIKWIId1DT
+LJowv9gsYDZdOP22gBn2G4kGfTd27FzoTnkyw/E4NnX0ZEBmkaaOkLqMInBz8KmgGYkem9tF//n2
+5pO2mP24TsyN6eQU+853Mt+QS40wM77dSizWPMSBGIDqq4o2Nex5BvUHy1jbxCwFZ6fLC/pmKx5+
+JlU7UP1orL5XCB41dYBkOOadMH5QYNPF9kfHh41PhGdOjExWvXOX75m9V5vdR3B/ttTGpHkp67vX
+fyRXpuUlKUCpMjjM8nvGdklDJeWIJxNG2JwY5ziIRhi457qGUPrRBJd+7yEL4VSuUy6sWbvDhJDY
+IFmL0/dY4EJpKiB1J76g67cOWQ/RiqkCYYNnL7pnEDkzWr0ek66iNWoylPuuLf5zVnC4J1V5z7oZ
+7Ww4fKcvl/VfnPLQILW/dr7vqq3+UrMotSbCnhVaUdWguf0KXlgCFvuL2ydB09E/L0r+B5TcptI+
+JsmotQZHyRKc0tpv+YNfWI8mjjbOqhbepQMkvVZFQ09UjK7Z4oq3aP2gG1lQZ2TauZAbnbe8BAGM
+zA1yCstkeQKUBCcmrFl7LGfALAT/

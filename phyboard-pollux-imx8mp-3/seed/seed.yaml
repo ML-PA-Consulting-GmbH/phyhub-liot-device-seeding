@@ -1,0 +1,13 @@
+snaps:
+- name: snapd
+  channel: stable
+  file: snapd_2.snap
+- name: m2cp-gateway
+  channel: stable
+  file: m2cp-gateway_2.snap
+- name: m2cp-message-hub
+  channel: stable
+  file: m2cp-message-hub_4.snap
+- name: core24
+  channel: stable
+  file: core24_2.snap

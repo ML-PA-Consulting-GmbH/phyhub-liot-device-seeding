@@ -1,0 +1,92 @@
+type: snap-revision
+authority-id: mlpa
+snap-sha3-384: 2-jZCIzjMv2iEgKj1myqYSb9a6AwZaCuOb8RrxtQ4jNXa0QiX8vvwuc06FTk1AOb
+developer-id: mlpa
+provenance: global-upload
+snap-id: 764abfd79ddd204333e6a06a970b6bf5
+snap-revision: 2
+snap-size: 6860800
+timestamp: 2026-05-05T15:37:41.1141899Z
+sign-key-sha3-384: BlwD0X1tYzEWIu7iUI6bk4L53up2PzR-zfgqc0cHXhyzmC5iW7g3qHqUk7AgmdCo
+
+AcLBUgQAAQoABgUCafoOxQAA8ycQAKQLKI3v0pG/GimZZ0eYBjGK8d3Sa3mFHQgg0sL0OzwYHw3x
+wkwR5yQ8LnH2aoJU/W1fGnokCBY5DVbXT51qm/twcpe+QhIJPffAoGrYvDAHlI1Gy3GjB7zfg71d
+FvgRuvXP5EWKt+NNDPcv4I6lpl1JwO4e2h2qPR/nebptXQp9J5Fe9xnzAeOSZcQlo8eSf4+SWTuo
+a6Xwk9GjfYXIcUquiYldm5eomqChINhIh3hvNAx0/CgADvXfWfxf8V8sh0O3bN04JtCmi14bNN9H
+lqCst/JME8Rx3Pa0cP8/o1UbnzKfHOcPpiI3zsVgn76hgPiTXWQIo6wGJJNYP5pWZz2G8VXtNtWh
+Q/L5Xsn3+U+ozPhHVuXr2QM+KF5XuXTCFPjxoc7kKeQY7tPrAi9A8M+QdbkSVnvf9gupxJs/Q4xs
+chAJ1YmSiwJV7iQQOo5ZKD8Lh3oBK9mqCZsr2TN+CcxiEHdKVwa3dEP+C+JIjMu4ZL5wXvEgZEhw
+PPbpD020lzuk275/hEhDwWXu3C6XJ/OUuQcZY2S8NTqeqOjZLL0UkWDI53EmRPlHXo09PNAfkdAU
+9TFU5jC5LhhfKjYDgBuVjFAv1z+siS4wa5YWDbYNWxIkYc5D+qe8oVN+q5122t4IKnVBsoVkO8rP
+CsZxa5rpTF2kmU7fFHp48yh4UTdI
+
+type: snap-declaration
+format: 5
+authority-id: mlpa
+revision: 2
+series: 16
+snap-id: 764abfd79ddd204333e6a06a970b6bf5
+plugs:
+  hostname-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network:
+    allow-auto-connection: true
+    allow-installation: true
+  network-bind:
+    allow-auto-connection: true
+    allow-installation: true
+  network-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network-observe:
+    allow-auto-connection: true
+    allow-installation: true
+  network-setup-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network-setup-observe:
+    allow-auto-connection: true
+    allow-installation: true
+  network-status:
+    allow-auto-connection: true
+    allow-installation: true
+  shutdown:
+    allow-auto-connection: true
+    allow-installation: true
+  snapd-control:
+    allow-auto-connection: true
+    allow-installation: true
+  ssh-keys:
+    allow-auto-connection: true
+    allow-installation: true
+  ssh-public-keys:
+    allow-auto-connection: true
+    allow-installation: true
+  system-files:
+    allow-auto-connection: true
+    allow-installation:
+      -
+        plug-attributes:
+          read:
+            - /var/lib/snapd/seed
+        plug-names:
+          - operating-system-version-information
+  system-observe:
+    allow-auto-connection: true
+    allow-installation: true
+publisher-id: mlpa
+snap-name: m2cp-gateway
+timestamp: 2026-05-05T15:37:40.8108507Z
+sign-key-sha3-384: BlwD0X1tYzEWIu7iUI6bk4L53up2PzR-zfgqc0cHXhyzmC5iW7g3qHqUk7AgmdCo
+
+AcLBUgQAAQoABgUCafoOxQAAQigQAAvC7amu4mpTWCB7Uo35ix2arwVDG8Twf3fJKTqBzhLXxXXb
+LlCTuikpPfB2Uie8SJudhZyJ44xEy4otiWsAoZO0/JOv841POXUHxHUef8TQE/0Ihe4Cn/lP3AJi
+EhJDDnwI0UXLNy3aGImTH0gRETBPbVTwDau9iOijj8abK+l1pY4y/akEen2gcKCQhLwnR4XuJzOU
+kbOaJL4+sXT0suw7YxJTd8UimyTYPHbMgUCAEQDylqgV3n/RghizYbRdq1CFCsawuRpKL/FsWd7Q
+k0NYK/Um/ehe9XEMxb+rSm0iH9HwhuxmPFJCRx3oE2OgjSTzRB0aiRDDmBfbSsC7loxo28E323MZ
+T47gsMuhG81D921P73zqC6rf6eKoLoLB0H/zbqRwXG+lVhD92C/bPDfQOnPEMUbmry+um286OA2s
+y18MHWzvawtKrOPFrG4RIyPiyDYOLD/ojVdBqXKj+oiOgDcg5znMUdK/3lsYEXRuTLGJOU6ecCTf
+fNWv/H8InYcrHfS0AJ8MtqGbbyzL9HGzwe0co76ERF4eikCSWg2xuky4+2MDWXMUge4Ye40IRblv
+Bj4ceK2XNCmcz781tEU6gKsh8r0r+cOkBlqGmld3phmy+ytGc0YaBEgy6QER7ZaLnS+0HFBASGUd
+VNbxgcG5ELZSSVuhSjdV4M+OEguu
