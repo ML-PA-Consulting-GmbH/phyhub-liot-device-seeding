@@ -1,0 +1,18 @@
+store:
+  url: https://app-phyhub-sc2-gateway-svc-stg-euw.azurewebsites.net/graphql
+model:
+  name: phyboard-segin-imx93-2
+  revision: 1
+snaps:
+- name: snapd
+  arch: arm64
+  version: 5.0.0.43
+- name: m2cp-gateway
+  arch: arm64
+  version: 3.0.1
+- name: m2cp-message-hub
+  arch: arm64
+  version: 4.5.2
+- name: core24
+  arch: arm64
+  version: 0.2.4

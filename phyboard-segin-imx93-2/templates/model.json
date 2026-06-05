@@ -1,0 +1,31 @@
+{
+    "type": "model",
+    "series": "16",
+    "authority-id": "PLACEHOLDER",
+    "brand-id": "PLACEHOLDER",
+    "model": "phyboard-segin-imx93-2",
+    "classic": "true",
+    "architecture": "arm64",
+    "timestamp": "2023-10-28T08:58:53+00:00",
+    "snaps": [
+        {
+          "name": "snapd",
+          "type": "snapd",
+          "default-channel": "latest/stable",
+          "id": "PLACEHOLDER"
+        },
+        {
+          "name": "m2cp-gateway",
+          "type": "app",
+          "default-channel": "latest/stable",
+          "id": "PLACEHOLDER"
+        },
+        {
+          "name": "m2cp-message-hub",
+          "type": "app",
+          "default-channel": "latest/stable",
+          "id": "PLACEHOLDER"
+        }
+    ]
+}
+

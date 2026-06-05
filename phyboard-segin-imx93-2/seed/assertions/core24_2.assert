@@ -1,0 +1,43 @@
+type: snap-revision
+authority-id: mlpa
+snap-sha3-384: -uyOssQW1RNZ0XkQwuomn-7DfoNsbb9UoybeA9ACTJ1UQgYHqJec5oFF_rDlYuGD
+developer-id: mlpa
+provenance: global-upload
+snap-id: 3814429054cd49a22189e4b8e446cc70
+snap-revision: 2
+snap-size: 61288448
+timestamp: 2026-05-05T15:37:37.0814533Z
+sign-key-sha3-384: BlwD0X1tYzEWIu7iUI6bk4L53up2PzR-zfgqc0cHXhyzmC5iW7g3qHqUk7AgmdCo
+
+AcLBUgQAAQoABgUCafoOwQAAaRsQAH8UE1bs5OOYQ+Ue2+S8lSYjrO85jsaf/wrxeMVQD65ONyvd
+lNxInekDV36/G+V7uzxHAKAm5Jw8lHEuct2bCoqs2944ovhd9vlR6RtxDhpV5bUmN5jHQnKmbKBL
+5lsQC6ChaJTYVSe8zC8qYnIRXjIh2JVSXESFROVS1AiWOL5J6mRDmSqK/SzE0yHEBmFlX7/w7gli
+lZDAMyot1xwGJbNON5+r31O/gTrhT5ko7NjDd0hLnSvOYCvNAYGBqbMKeIRhrEdqiXQnnC0970DH
+2Mh+0foknbrO/zOVL80swvlX19p0lpDCp0GMzUa6G9Wxxft2u2k7JVou/z/q37fpfL8GB08B1Mdk
+ptW+Wi+foWRdusLnZ8hdrZxU0RXpFPFZ35jS9rhqDil+gGUlimgC0/tNOWFB2yJ4Bff9TX9wlzIa
+LrsJPACpiF3pV0SqpNAKtByrA+SELWeZM7goMaecqtwireW8q/PyfYm6CC+JlLs7SF9Hpfr8NQmG
+RdxC6aRE9RLGahNotUkwZAdqoiX2vb8WXaS//O3u7sXcxImQo4yQWECCAqxD1gm6s5o9vSSqzlcx
+pJCE79G0OT5lxEEPZMaImIyPxMFSgid4pW9iaLXnENttLjcQOGifdUQOcTaGpG7q4ca9LuLBtOV5
+V0yzwpL5TencqgWpcEcuHWGJdRbV
+
+type: snap-declaration
+format: 5
+authority-id: mlpa
+revision: 2
+series: 16
+snap-id: 3814429054cd49a22189e4b8e446cc70
+publisher-id: mlpa
+snap-name: core24
+timestamp: 2026-05-05T15:37:36.7917223Z
+sign-key-sha3-384: BlwD0X1tYzEWIu7iUI6bk4L53up2PzR-zfgqc0cHXhyzmC5iW7g3qHqUk7AgmdCo
+
+AcLBUgQAAQoABgUCafoOwAAA2cUQAC/0NM/NONCtQtN6DNOmAD9tHl4hCiYCq4fh7T0JvVFQfg24
+3eDkNm4D1JPiWWqQuqsjceK+EXB+dmByhK9F7Ctg0d0QE+T6p+mqhE96kvRAyqoRJVKfk6+hqfBh
+amk81x7Owf9yyoQAOgY8I34M/rCqn3Ul3L3OwJN6V2gWLVkKoNdoGjrKlE11hh+2FK04jJMEao1O
+5xg4+o2pCFTkWIohgiNABFF5neGaNFrDERqABx8dYC2QALbleJ7gR+LkGzFU54JTRtR0yqFxtUcQ
+B60fWrLdlvZe3x/8CnO4M1wx5sPCaKABA9WJbIwtj5hWrpykoJL2Qubn19IIEWNyNMJpi7uDoIA/
+wMRkxiRqQMEx2sBwOQCyTwIruA4jyE/HZ+81CvpPgYhPbGv/FAja+zPp99abSt69IyoMM4ALhyaK
+Yp/8rgkv4TDU1LdgOAJEyxQPPgzj4Z+FQ22ry8vZCx7b1uLOK6Q7MsVGuSMwu0Oj4omZVAkgTXNM
+SJOWkQ2XhQuyeMdI/PHlSIkqL+q0y1RQoqjY3CIWZm84xV11fPPIotPD9cDQpRiEYarJ9s+JqVLS
+SHarX81oW7ER+sV4CTuVgTKzwz9VRrNPOkpTiQPy8zYBotgBt1pcNU3upYwNAh32gnyH8GYi6tRf
+ADH2qqQBm8r2Ul4KsLX8vpwpWizE

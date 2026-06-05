@@ -1,0 +1,21 @@
+type: model
+authority-id: mlpa
+revision: 1
+series: 16
+brand-id: mlpa
+model: phyboard-segin-imx93-2
+architecture: arm64
+classic: true
+timestamp: 2026-06-05T10:40:26.559801Z
+sign-key-sha3-384: ng1QV0H33GrhqN1FjqFlWt8Uu8D-ZL_Ea9uqb3SK-O-LHQsE6Gt_GgNKTf4TNFHi
+
+AcLBUgQAAQoABgUCaiKnmgAANCAQAB+Q/U3FqKWK4tmM96N3bBTfc2FSr8EMjlipUzUGtQDYLZ+P
+Sl6JGYkg/AAGRPDvSRqBF1LT07O1m6c03BJ/oWyzLEE42OSnS9IY8CropAE4B9TL+rM0kFigFR3Y
+irOdf0JJn5EB7NoZiSusSYXWgu1zVv0dlSwVsGj+lxETy+R+EitStnmk9n7lRefVhB06XQcbdoJb
+vOlgBAUUm1q4/5I/brt3dCuMPjynG4wHJSH7T8ozWCQxvrBEO4hh5H+dQZY6a5IryCpfNcuuM6ky
+5b4Lf6rBPTW77FvbO+3CW4FqihbxpmJd5n2D8H2ncbTA9uR9BU7lPFKL48BlL1bWcd/l/jgQHXe5
+r73Fih8+oFlMkGGY9nuIBpYzA6J43e+gzslnFIUt53kT33HvGmHgAtllDyfa4wwAt4mb0LqRI9Pn
+Gfa31NwQVuyMt8MIoOdB0kHLRT6ny2WFlYHiZpttyMkkb5GTDtOR+2un+nOq9kEEXXnGSgxu8kVM
+kyMgy1Ldkp3ELuprBHwNf/J6MJBrJu+MzjsxbaF+rmbPnSU6xFWs96yoYhDwYYA4MvBvzANHyFIM
+2jj5bwUPF4FWL+5VOPW5gXNQBZ+/IDaQrTSMvzQ7HgHTBRDXGGM32QexV3LAMYdNIyo4lfEyh0j4
+bz9xlYg8xdnl1iXctcOtNbNVE1/h
