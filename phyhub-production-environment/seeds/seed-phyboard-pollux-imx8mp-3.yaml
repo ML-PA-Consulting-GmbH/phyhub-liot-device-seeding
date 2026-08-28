@@ -6,7 +6,7 @@ model:
 snaps:
 - name: snapd
   arch: arm64
-  version: 5.1.0.55
+  version: 5.1.0.57
 - name: m2cp-gateway
   arch: arm64
   version: 3.4.8

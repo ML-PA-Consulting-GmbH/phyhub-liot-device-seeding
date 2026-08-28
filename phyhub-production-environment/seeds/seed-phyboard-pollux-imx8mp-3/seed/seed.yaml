@@ -1,7 +1,7 @@
 snaps:
 - name: snapd
   channel: stable
-  file: snapd_1.snap
+  file: snapd_3.snap
 - name: m2cp-gateway
   channel: stable
   file: m2cp-gateway_1.snap

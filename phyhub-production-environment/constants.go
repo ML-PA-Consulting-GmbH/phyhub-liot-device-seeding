@@ -43,7 +43,7 @@ const (
 	StagingIdCore24 = "3814429054cd49a22189e4b8e446cc70"
 	StagingIdCore26 = "00000000000000000000000000000000"
 
-	AccountId = "mlpa"
+	AccountId = "appstore"
 
 	EncodedRepairRootAccountKeyPublicKeySha3 = "f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs"
 	EncodedRepairRootAccountKey              = `type: account-key
