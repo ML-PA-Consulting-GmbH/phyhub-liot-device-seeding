@@ -1,0 +1,21 @@
+type: model
+authority-id: appstore
+revision: 1
+series: 16
+brand-id: appstore
+model: phyboard-segin-imx93-2
+architecture: arm64
+classic: true
+timestamp: 2026-08-26T10:11:52.5360412Z
+sign-key-sha3-384: HzSHhuxvyeYUNVAEN_hDnSU-0hTQi1IJRyRjYj6DUEzbANv6_PjD0mlT84lBdV9P
+
+AcLBUgQAAQoABgUCao676AAAp9kQADGcIpZeg+9mD9kCpenqdSZTctqKlR9iemDgebJEnxqHwNN3
+v1f/T9x9pAvpcDjURB/MsymxGKZ3xxa17qvy8bmcpS/n3wj9q1IuSlyS97D1KwlWpDlnCoghVQIN
+9uS1EDouczjGbdlxrCHMwEOVI/AjX3h6hF5u7+SLfHlBP2vvU3yLBpW/Wy0hdTCHDtAvRvTuxbXu
+ACyjuX9Ts+P4sTbtgqmWFoc4iPgPvO21RrTRder3z+lQ+UQFN3oORN+aGJX08xzY/kV+g+ZuYIss
+FQDh9sSmI6u0BRAcutpMTdn9/qe/SOeTIVuWE8pgALi78R4wlOZsHKPVPgvF+jzgk9BYoYhyevgq
+TVjQLKTiwSJgkT6lp/4gVQAIGMXREXWymJxnHz9yIOoJzvkZ6MTlCmsfIo5E/TAUmCXX6PMiHXUu
+788DfcQ3Qu2gLKGUQuJKGGEgsYctBTXNKmxyxqrcuhAe5oGSEOsCH6SLyMRVzLTYMqAh/qn3H6TM
+9MLM9jnIvri/W1iyakXqMxOL+EdGBGvG6ZRTRgBYPYzdFZlSGVwpzKh1zpZR5pWdo/8YGmexI45e
+vDpeBiYbKQkFlnG07UFrQ1dhecToZVBV1sVEeHxJ8SzT54q4Y4/K5Nvp/Q76d9C34acDmqCkxQ6P
+k0u1MY+pI91Ht2wdRHtAWluR0Ydb

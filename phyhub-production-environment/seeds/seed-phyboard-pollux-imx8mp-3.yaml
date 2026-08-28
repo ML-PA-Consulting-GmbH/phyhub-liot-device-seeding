@@ -1,0 +1,21 @@
+store:
+  url: https://app-phyhub-gateway-svc-prod-euw.azurewebsites.net/graphql
+model:
+  name: phyboard-pollux-imx8mp-3
+  revision: 1
+snaps:
+- name: snapd
+  arch: arm64
+  version: 5.1.0.55
+- name: m2cp-gateway
+  arch: arm64
+  version: 3.4.8
+- name: m2cp-message-hub
+  version: 4.7.4
+  arch: arm64
+- name: core24
+  arch: arm64
+  version: 1.3.1
+- name: liot-ota-rauc
+  version: 0.6.2
+  arch: arm64

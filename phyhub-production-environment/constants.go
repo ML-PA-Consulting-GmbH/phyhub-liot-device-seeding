@@ -1,0 +1,373 @@
+/*
+ * Copyright (C) 2014-2024 ML!PA GmbH
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3 as
+ * published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+ package constants
+
+const (
+	BaseUrlSnapcraftDashboard        = "https://app-phyhub-gateway-svc-prod-euw.azurewebsites.net/"
+	BaseUrlSnapcraftDashboardStaging = "https://app-phyhub-gateway-svc-prod-euw.azurewebsites.net/"
+	BaseUrlSnapcraftApi              = "https://app-phyhub-gateway-svc-prod-euw.azurewebsites.net/"
+	BaseUrlSnapcraftStagingApi       = "https://app-phyhub-gateway-svc-prod-euw.azurewebsites.net/"
+	BaseUrlSnapcraftApiV2            = "https://app-phyhub-gateway-svc-prod-euw.azurewebsites.net/v2/"
+	BaseUrlSnapcraftStagingApiV2     = "https://app-phyhub-gateway-svc-prod-euw.azurewebsites.net/v2/"
+	AuthLocation                     = "app-phyhub-gateway-svc-prod-euw.azurewebsites.net"
+	AuthLocationStaging              = "app-phyhub-gateway-svc-prod-euw.azurewebsites.net"
+
+	// snap ids
+	ProdIdSnapd  = "0682f36da73c49d8a55effdf65533f9d"
+	ProdIdCore   = "00000000000000000000000000000000"
+	ProdIdCore18 = "00000000000000000000000000000000"
+	ProdIdCore20 = "6ebf1fd79130484599c23588496cc282"
+	ProdIdCore22 = "775ff269aa144114901b5e7f84df6fe8"
+	ProdIdCore24 = "3814429054cd49a22189e4b8e446cc70"
+	ProdIdCore26 = "00000000000000000000000000000000"
+
+	StagingIdSnapd  = "0682f36da73c49d8a55effdf65533f9d"
+	StagingIdCore   = "00000000000000000000000000000000"
+	StagingIdCore18 = "00000000000000000000000000000000"
+	StagingIdCore20 = "6ebf1fd79130484599c23588496cc282"
+	StagingIdCore22 = "775ff269aa144114901b5e7f84df6fe8"
+	StagingIdCore24 = "3814429054cd49a22189e4b8e446cc70"
+	StagingIdCore26 = "00000000000000000000000000000000"
+
+	AccountId = "mlpa"
+
+	EncodedRepairRootAccountKeyPublicKeySha3 = "f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs"
+	EncodedRepairRootAccountKey              = `type: account-key
+authority-id: appstore
+public-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+account-id: appstore
+name: snapstore-key-root
+since: 2026-08-25T14:38:38.5332186Z
+body-length: 717
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcbBTQRWhcGAARAAvMZqBOTj2h7WEqAxf1a79Co2/4JxraHXCfRZVWasZBvARoUQ6ImIn3RIU2bu
+HtzG4EihavAg5iSQoY1VvSrZfqjun8MS4EgAY8jpcjVn9CF8Aeygme7U3Te43fO/B4NsPjFDGj1k
+ttWuhwZb5NgpcaaUFGrNKj311mJF8klCMSOKxClS4Gok1WTP16GWhsPtF2/FefKW0zMD5arMGdm1
+NbXKnHCP2aR+9g8++sflr8FgCIuWdUquySb2BQNCc2Iuy1hztATzEo8UN9D1E5r6VpD90ZJJdECE
+EqS8AZGn0hnQgKM798RZNfXm581E8MWWHvBZ0G5AjFNmFsAvAVSIZewJ6mkHvDTAT9muk9JjDR5p
+KVSsuhSBCEdDWLwFnMjUZh8UxTsFV2cLwSjPk9D4ZPAFQrCKovly2RguNoCPEgd923I1vWR2Algw
+rzuAQLFTnI2m5rutzE+QKKXyDgJNJ4QbXHJeMduGC5GIjX1+sD49WVnMSMoX6AWOaKxa5j7iG4Ou
+nTCGGDuPU6vMqec8gAfGXTg6PaUMyj+zImifXS1vvvptvhS9gTzEL1GYgTS6ZvgLd0X6xYljVCy/
+U6tQ9X0Qgi+ApV145ajmj11dN1MRGQnWMf3FTamiXcY2SrFDGEcILSoI8HlkWYQzHrRj17OD4mY3
+7iKR3n2IkJRAz8UAEQEAAQ==
+
+AcLBUgQAAQoABgUCao2o8AAA1g4QACwEHVcuG2Pow03NrV9yt3T6kViXeoWinD0aq/RZMrpDxD5d
+UDOG9CQ+KkvCFBIzW7bsXADsXIuY0FPoKLOJ+dtFVOGogtmn7n4vqzQmlf8stufPt4MMXa0RddT4
+pG+nNW21I4V65Wd7vKk+wro2Bt/P1veUIIZ8g32vP5gHwjGGiacHnXfTtV9G6W8M2LFzWum78vHd
+l4R7KEL5mDtbJJERg20l0e3h6K82fky5nAhGjaJ6D7sLDc0QM1NVTHYgZAqo2VH6/0MYZgAS2LKB
+Vb3Kt062GEZN9glUoY0bDharCLDYwNXWlbgJubFnEnX/ephvX3/ceV69E6qCVB429EXLBKCQOGTn
+nkXpTr/DO8Z3BOV3lT7ShrytURdTkYNQrvHYITxwDhoo4wiYcoaJM94nryFMKeVMwkGVXtsATcY8
+pjnjVoTfQO5sDZaCLOCpi6oQIJ+Dfw6Ut6+oAtoXolX5gAN2VLOZ1VODrK+vKcEZ8Wx5avIq0V4Z
+6fC5hFD46Vh4xxY89KXJjHSqHHJ8OXToyLNObkgOk1/kD+/Q+ft6VAork/Pa9gL+cgH1qx9OVKfs
+8aL9qXnBCenrRq+oUmPvGNbqyglRzEbHkedf9dxSN9iBLxlH0Sb7c+asmyE9Fwj2M8UujI3Ul5w4
+DTT31CZMYiceFYRJJ99XcSeOvdpy
+`
+
+	EncodedStagingRepairRootAccountKey = `type: account-key
+authority-id: appstore
+public-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+account-id: appstore
+name: snapstore-key-root
+since: 2026-08-25T14:38:38.5332186Z
+body-length: 717
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcbBTQRWhcGAARAAvMZqBOTj2h7WEqAxf1a79Co2/4JxraHXCfRZVWasZBvARoUQ6ImIn3RIU2bu
+HtzG4EihavAg5iSQoY1VvSrZfqjun8MS4EgAY8jpcjVn9CF8Aeygme7U3Te43fO/B4NsPjFDGj1k
+ttWuhwZb5NgpcaaUFGrNKj311mJF8klCMSOKxClS4Gok1WTP16GWhsPtF2/FefKW0zMD5arMGdm1
+NbXKnHCP2aR+9g8++sflr8FgCIuWdUquySb2BQNCc2Iuy1hztATzEo8UN9D1E5r6VpD90ZJJdECE
+EqS8AZGn0hnQgKM798RZNfXm581E8MWWHvBZ0G5AjFNmFsAvAVSIZewJ6mkHvDTAT9muk9JjDR5p
+KVSsuhSBCEdDWLwFnMjUZh8UxTsFV2cLwSjPk9D4ZPAFQrCKovly2RguNoCPEgd923I1vWR2Algw
+rzuAQLFTnI2m5rutzE+QKKXyDgJNJ4QbXHJeMduGC5GIjX1+sD49WVnMSMoX6AWOaKxa5j7iG4Ou
+nTCGGDuPU6vMqec8gAfGXTg6PaUMyj+zImifXS1vvvptvhS9gTzEL1GYgTS6ZvgLd0X6xYljVCy/
+U6tQ9X0Qgi+ApV145ajmj11dN1MRGQnWMf3FTamiXcY2SrFDGEcILSoI8HlkWYQzHrRj17OD4mY3
+7iKR3n2IkJRAz8UAEQEAAQ==
+
+AcLBUgQAAQoABgUCao2o8AAA1g4QACwEHVcuG2Pow03NrV9yt3T6kViXeoWinD0aq/RZMrpDxD5d
+UDOG9CQ+KkvCFBIzW7bsXADsXIuY0FPoKLOJ+dtFVOGogtmn7n4vqzQmlf8stufPt4MMXa0RddT4
+pG+nNW21I4V65Wd7vKk+wro2Bt/P1veUIIZ8g32vP5gHwjGGiacHnXfTtV9G6W8M2LFzWum78vHd
+l4R7KEL5mDtbJJERg20l0e3h6K82fky5nAhGjaJ6D7sLDc0QM1NVTHYgZAqo2VH6/0MYZgAS2LKB
+Vb3Kt062GEZN9glUoY0bDharCLDYwNXWlbgJubFnEnX/ephvX3/ceV69E6qCVB429EXLBKCQOGTn
+nkXpTr/DO8Z3BOV3lT7ShrytURdTkYNQrvHYITxwDhoo4wiYcoaJM94nryFMKeVMwkGVXtsATcY8
+pjnjVoTfQO5sDZaCLOCpi6oQIJ+Dfw6Ut6+oAtoXolX5gAN2VLOZ1VODrK+vKcEZ8Wx5avIq0V4Z
+6fC5hFD46Vh4xxY89KXJjHSqHHJ8OXToyLNObkgOk1/kD+/Q+ft6VAork/Pa9gL+cgH1qx9OVKfs
+8aL9qXnBCenrRq+oUmPvGNbqyglRzEbHkedf9dxSN9iBLxlH0Sb7c+asmyE9Fwj2M8UujI3Ul5w4
+DTT31CZMYiceFYRJJ99XcSeOvdpy
+`
+
+	EncodedCanonicalAccountSignKeySha3 = "f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs"
+	EncodedCanonicalAccount            = `type: account
+authority-id: appstore
+account-id: appstore
+display-name: appstore
+timestamp: 2026-08-26T09:47:18.2185677Z
+username: appstore
+validation: certified
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcLBUgQAAQoABgUCao62JgAA96MQAFYNXvxWTvJR/C4eKrRPAYaU7hn/nXktnWa6FC+tH7zpqt/1
+3lNSrTIDz54k2oN8kb1gg1ht+jK0ulB8oJeq3i3Gt3r+wpXM9vvNxKBf1QBt2fzYCfQtA/T8nroV
+nP1aPRSnKGjTML2eTMMm1QQ1AN647yTKtgUwlovA8V5scw0/4o8lZy+Qz0XxuXzaqOYf9uTy+k5E
++Fu1uKORgsgqswo8WTHmc/1xJN+2Z8dFA3a5yCVsyeAoRbheKyvEn502xKX05uIB3OnM6DtHk95t
+7LYAkaMpe6/O67c7hmmOMcT5GAK3VhS+a5QG38W8ajmGJUjfydAfO9eYrwcy4StaTvkhCUOQIWTs
+HB7NMNw8JuoLUdJCyrEOIbYzMTJjvtNlwSyFCM9bozQo15fSqnfQUMRMDlOgjle+2/HS+9ERrF3l
+kOdRh/rtC9iUsFVlWVqfgNR8TuS27AHuLSDQ4tFQ8LUKUC5wWj8LdZdI8E9sxJxeVqozF7n6PqTh
+RU2gTKc0ZaG4935cQnh+69dhoMylOhrMyTqgUAJrQ9Ur1vHWMw4mHFXoRl6NXoeLnrFMM4lYv+Q5
+4mfqTfqQ8fqhD9Cp/4kWUwBmL/bSTVMgwzAxnfrsOf9pUYHE8kN3rlPT3L0lomh7XhG6Vw1rtR/G
+JvbCiexa0DQa3z2qDqAtbP3LnvXO
+`
+
+	EncodedCanonicalRootAccountKey = `type: account-key
+authority-id: appstore
+public-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+account-id: appstore
+name: snapstore-key-root
+since: 2026-08-25T14:38:38.5332186Z
+body-length: 717
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcbBTQRWhcGAARAAvMZqBOTj2h7WEqAxf1a79Co2/4JxraHXCfRZVWasZBvARoUQ6ImIn3RIU2bu
+HtzG4EihavAg5iSQoY1VvSrZfqjun8MS4EgAY8jpcjVn9CF8Aeygme7U3Te43fO/B4NsPjFDGj1k
+ttWuhwZb5NgpcaaUFGrNKj311mJF8klCMSOKxClS4Gok1WTP16GWhsPtF2/FefKW0zMD5arMGdm1
+NbXKnHCP2aR+9g8++sflr8FgCIuWdUquySb2BQNCc2Iuy1hztATzEo8UN9D1E5r6VpD90ZJJdECE
+EqS8AZGn0hnQgKM798RZNfXm581E8MWWHvBZ0G5AjFNmFsAvAVSIZewJ6mkHvDTAT9muk9JjDR5p
+KVSsuhSBCEdDWLwFnMjUZh8UxTsFV2cLwSjPk9D4ZPAFQrCKovly2RguNoCPEgd923I1vWR2Algw
+rzuAQLFTnI2m5rutzE+QKKXyDgJNJ4QbXHJeMduGC5GIjX1+sD49WVnMSMoX6AWOaKxa5j7iG4Ou
+nTCGGDuPU6vMqec8gAfGXTg6PaUMyj+zImifXS1vvvptvhS9gTzEL1GYgTS6ZvgLd0X6xYljVCy/
+U6tQ9X0Qgi+ApV145ajmj11dN1MRGQnWMf3FTamiXcY2SrFDGEcILSoI8HlkWYQzHrRj17OD4mY3
+7iKR3n2IkJRAz8UAEQEAAQ==
+
+AcLBUgQAAQoABgUCao2o8AAA1g4QACwEHVcuG2Pow03NrV9yt3T6kViXeoWinD0aq/RZMrpDxD5d
+UDOG9CQ+KkvCFBIzW7bsXADsXIuY0FPoKLOJ+dtFVOGogtmn7n4vqzQmlf8stufPt4MMXa0RddT4
+pG+nNW21I4V65Wd7vKk+wro2Bt/P1veUIIZ8g32vP5gHwjGGiacHnXfTtV9G6W8M2LFzWum78vHd
+l4R7KEL5mDtbJJERg20l0e3h6K82fky5nAhGjaJ6D7sLDc0QM1NVTHYgZAqo2VH6/0MYZgAS2LKB
+Vb3Kt062GEZN9glUoY0bDharCLDYwNXWlbgJubFnEnX/ephvX3/ceV69E6qCVB429EXLBKCQOGTn
+nkXpTr/DO8Z3BOV3lT7ShrytURdTkYNQrvHYITxwDhoo4wiYcoaJM94nryFMKeVMwkGVXtsATcY8
+pjnjVoTfQO5sDZaCLOCpi6oQIJ+Dfw6Ut6+oAtoXolX5gAN2VLOZ1VODrK+vKcEZ8Wx5avIq0V4Z
+6fC5hFD46Vh4xxY89KXJjHSqHHJ8OXToyLNObkgOk1/kD+/Q+ft6VAork/Pa9gL+cgH1qx9OVKfs
+8aL9qXnBCenrRq+oUmPvGNbqyglRzEbHkedf9dxSN9iBLxlH0Sb7c+asmyE9Fwj2M8UujI3Ul5w4
+DTT31CZMYiceFYRJJ99XcSeOvdpy
+`
+
+	EncodedGenericAccount = `type: account
+authority-id: appstore
+account-id: appstore
+display-name: appstore
+timestamp: 2026-08-26T09:47:18.2185677Z
+username: appstore
+validation: certified
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcLBUgQAAQoABgUCao62JgAA96MQAFYNXvxWTvJR/C4eKrRPAYaU7hn/nXktnWa6FC+tH7zpqt/1
+3lNSrTIDz54k2oN8kb1gg1ht+jK0ulB8oJeq3i3Gt3r+wpXM9vvNxKBf1QBt2fzYCfQtA/T8nroV
+nP1aPRSnKGjTML2eTMMm1QQ1AN647yTKtgUwlovA8V5scw0/4o8lZy+Qz0XxuXzaqOYf9uTy+k5E
++Fu1uKORgsgqswo8WTHmc/1xJN+2Z8dFA3a5yCVsyeAoRbheKyvEn502xKX05uIB3OnM6DtHk95t
+7LYAkaMpe6/O67c7hmmOMcT5GAK3VhS+a5QG38W8ajmGJUjfydAfO9eYrwcy4StaTvkhCUOQIWTs
+HB7NMNw8JuoLUdJCyrEOIbYzMTJjvtNlwSyFCM9bozQo15fSqnfQUMRMDlOgjle+2/HS+9ERrF3l
+kOdRh/rtC9iUsFVlWVqfgNR8TuS27AHuLSDQ4tFQ8LUKUC5wWj8LdZdI8E9sxJxeVqozF7n6PqTh
+RU2gTKc0ZaG4935cQnh+69dhoMylOhrMyTqgUAJrQ9Ur1vHWMw4mHFXoRl6NXoeLnrFMM4lYv+Q5
+4mfqTfqQ8fqhD9Cp/4kWUwBmL/bSTVMgwzAxnfrsOf9pUYHE8kN3rlPT3L0lomh7XhG6Vw1rtR/G
+JvbCiexa0DQa3z2qDqAtbP3LnvXO
+`
+
+	EncodedGenericModelsAccountKeyPublicKeySha3 = "HzSHhuxvyeYUNVAEN_hDnSU-0hTQi1IJRyRjYj6DUEzbANv6_PjD0mlT84lBdV9P"
+	EncodedGenericModelsAccountKey              = `type: account-key
+authority-id: appstore
+public-key-sha3-384: HzSHhuxvyeYUNVAEN_hDnSU-0hTQi1IJRyRjYj6DUEzbANv6_PjD0mlT84lBdV9P
+account-id: appstore
+name: snapstore-key-models
+since: 2026-08-25T14:39:18.6998298Z
+body-length: 717
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcbBTQRWhcGAARAAvhg16fd/afOYDx2xC99q9il200LOdIQR7jcfGLcIuqanwhs/BZQglEAlwEEe
+bHjerAXGCYApsNsUP+iKJjesPyd8XtiDNs0JXkNtPbROPwEPJqThqCoDdSS0DLdcqNginJ7WYQqY
+5o9tc78KUL51mQJckMzYFh+Ox5j2tnNoQoZP/ovX2xv6CvhSBh3w+06LudNnK9Zwivom1ADobpak
+YlGqFZLEiig1QFlNh73LBOiK06w8LXgINy9MggcLj0y0oKq6PEZ2px1iNqtRIVAVau+kXIcQ4mPw
+q37BxhDNSVRepj2qONTQ6zPEeHzRDQ4SnnXJDYvcfAYVlawwMu285gIeT0ezSyVuJqsCcZyzqj8a
+n3W8hozWjy1qy3AQCBvTnszDGfzDkgxjwgyP1m2qwtB4FX+fmF2JFqbPViv1rX1RoSejd6VNRvFZ
+vKmMFDTim3NLBaoZzPuwprBo142ceXcmg6/ACcl7zH245qb3+E3Aywra3K4iYoY/80RfjJuVU3hJ
+9wnnhaFGN2/K9uHHtDI0QSQLC9EbO6cJ1NTGMsNeVjjRTTqIpp3a54HbjkalxFa/be3WfmlHugCz
+dQX55B6/Fj2Wt1tWAuXV0WBBpHgaojKFMdz7+RI4d5MptROngwjZAPHFfuIKEOxfKxSGK07VA5sO
+5xcE72Tm6c0LxUEAEQEAAQ==
+
+AcLBUgQAAQoABgUCao2pFwAAFnwQABUNixxQ5hyM29TaecRz+EgC2azkKXt2F2ghY4Ygw7E4Ly18
+q9WGP32l9q8YfsuId4lGq9M6jejlnOZnzaNiJ0bkRA7UlEf92DpO0JTfNGLhD9rt/BaaKY9es2yt
+Tgw9Hw6D4EJHXBkcyyuYxFzeLMCshrgEw4oSkemL+0kPQ1ve728LGt0Btl2Wzy8KQnBzwD6qC5VC
+4fMQLmtu3GpX86vl3N0YHAis2zlB+nhOtDPjsTLfewF0xmcDlFm3HF9xl+hgkIAwWKxW9/oNlpWG
+hhUEr6uwHuYhy2EVaLHrPXRQzZU4m66FogdfJgwap99CEcbOVRWZNYZRTWYtGgA1Ex9bc9ioqWDn
+2ob2t3gWh/zZxuqtFrdLCGBcNLIWsqs/7mioXPrDyDQ2KdLZVrahk+SwkRiDKNl1K2//rzgSlTg1
+5BMD0okibcfOUG9raW4Pa5hXshzC0lUbN8spk1awKPPdcN1h54qr59K97B6cwgRK8JyIxu9A9kcj
+UtihqyjyKR5fFiflZt8DGJfSehSM3EitC4BaMvXp1u6fcSv/8lTbAhZCAc47gY1cGfQemhm8P6KC
+VF15xHo2/3fImKHAJWTd9jdLmWn02lTVK5t2QkWyEdqmtUOVnFKM7mtzl8hzevK6ZQaRru53xlFq
+v7Wj+Kkq8a1x5GGIItlYAnxBUvTR
+`
+
+	EncodedGenericClassicModel = `type: model
+authority-id: appstore
+revision: 1
+series: 16
+brand-id: appstore
+model: generic-arm64
+architecture: arm64
+classic: true
+timestamp: 2026-08-25T14:39:32.32242Z
+sign-key-sha3-384: HzSHhuxvyeYUNVAEN_hDnSU-0hTQi1IJRyRjYj6DUEzbANv6_PjD0mlT84lBdV9P
+
+AcLBUgQAAQoABgUCao2pJgAAbs4QAAh6Ct2CU+9akbfXfo+chZnNCFQmhJytKuc2ymp+jxv+kF7q
+F6URf4ubeCBCF6we2nbJYjVcmvn8qpxrJdZyR1oPBd9igAcl9hOl/IfEeA8cOgsbntLU9SuXqHUJ
+miNuuedxG0pdtw/WboIZi4Cou9f6JZ7gjj5e89r5L9SebDtFsi7x3nieq6yltFH6fLMklA2VkRP1
+LPNAlPYyQbXk1UJkN42NZ6cDmWak3D1yoArb4bbP1ZGKmZz6isXyN99KnthcW0kybxhwFsWt7Dc8
+cshbeO4tClSAkUYQNykWIY0GamjNSDUUtCsNnA2pXMYtwaJUi0FWRPp+ujCyov/tEtbdiQqM0FIC
+TuSmLdJPDqTq+0xBeHBJ5gfmiEErh83gFQpyodt/NZOSi7snAo+IYblJybX7Mq+pwpKLUdzUBUu1
+Bzz+DT9o3/XbrufF4CkZxkqaDuuoj7PSj92W5rYxgpwujykQUPkUGmhRwuI8qmyMG3dzF3xbvaDI
+S0gYiXYPRYpNe5uPcsP+PUw73o5Fx3qTIw/FJH1Y/M0vxWgK7AvEvuiQ3xuvQpqrGx9ebDr/L8K6
+qvOlDaoh8652aH18qNNVCQmx1ctKhOvR/6ZenybE1OafQhdEtqaTwp+GZK/6gmYPJi7yMnAvAwAh
+6sDgo7Yigzre9QFkILt0vEGotkfp
+`
+
+	EncodedStagingTrustedAccount = `type: account
+authority-id: appstore
+account-id: appstore
+display-name: appstore
+timestamp: 2026-08-26T09:47:18.2185677Z
+username: appstore
+validation: certified
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcLBUgQAAQoABgUCao62JgAA96MQAFYNXvxWTvJR/C4eKrRPAYaU7hn/nXktnWa6FC+tH7zpqt/1
+3lNSrTIDz54k2oN8kb1gg1ht+jK0ulB8oJeq3i3Gt3r+wpXM9vvNxKBf1QBt2fzYCfQtA/T8nroV
+nP1aPRSnKGjTML2eTMMm1QQ1AN647yTKtgUwlovA8V5scw0/4o8lZy+Qz0XxuXzaqOYf9uTy+k5E
++Fu1uKORgsgqswo8WTHmc/1xJN+2Z8dFA3a5yCVsyeAoRbheKyvEn502xKX05uIB3OnM6DtHk95t
+7LYAkaMpe6/O67c7hmmOMcT5GAK3VhS+a5QG38W8ajmGJUjfydAfO9eYrwcy4StaTvkhCUOQIWTs
+HB7NMNw8JuoLUdJCyrEOIbYzMTJjvtNlwSyFCM9bozQo15fSqnfQUMRMDlOgjle+2/HS+9ERrF3l
+kOdRh/rtC9iUsFVlWVqfgNR8TuS27AHuLSDQ4tFQ8LUKUC5wWj8LdZdI8E9sxJxeVqozF7n6PqTh
+RU2gTKc0ZaG4935cQnh+69dhoMylOhrMyTqgUAJrQ9Ur1vHWMw4mHFXoRl6NXoeLnrFMM4lYv+Q5
+4mfqTfqQ8fqhD9Cp/4kWUwBmL/bSTVMgwzAxnfrsOf9pUYHE8kN3rlPT3L0lomh7XhG6Vw1rtR/G
+JvbCiexa0DQa3z2qDqAtbP3LnvXO
+`
+
+	EncodedStagingRootAccountKey = `type: account-key
+authority-id: appstore
+public-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+account-id: appstore
+name: snapstore-key-root
+since: 2026-08-25T14:38:38.5332186Z
+body-length: 717
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcbBTQRWhcGAARAAvMZqBOTj2h7WEqAxf1a79Co2/4JxraHXCfRZVWasZBvARoUQ6ImIn3RIU2bu
+HtzG4EihavAg5iSQoY1VvSrZfqjun8MS4EgAY8jpcjVn9CF8Aeygme7U3Te43fO/B4NsPjFDGj1k
+ttWuhwZb5NgpcaaUFGrNKj311mJF8klCMSOKxClS4Gok1WTP16GWhsPtF2/FefKW0zMD5arMGdm1
+NbXKnHCP2aR+9g8++sflr8FgCIuWdUquySb2BQNCc2Iuy1hztATzEo8UN9D1E5r6VpD90ZJJdECE
+EqS8AZGn0hnQgKM798RZNfXm581E8MWWHvBZ0G5AjFNmFsAvAVSIZewJ6mkHvDTAT9muk9JjDR5p
+KVSsuhSBCEdDWLwFnMjUZh8UxTsFV2cLwSjPk9D4ZPAFQrCKovly2RguNoCPEgd923I1vWR2Algw
+rzuAQLFTnI2m5rutzE+QKKXyDgJNJ4QbXHJeMduGC5GIjX1+sD49WVnMSMoX6AWOaKxa5j7iG4Ou
+nTCGGDuPU6vMqec8gAfGXTg6PaUMyj+zImifXS1vvvptvhS9gTzEL1GYgTS6ZvgLd0X6xYljVCy/
+U6tQ9X0Qgi+ApV145ajmj11dN1MRGQnWMf3FTamiXcY2SrFDGEcILSoI8HlkWYQzHrRj17OD4mY3
+7iKR3n2IkJRAz8UAEQEAAQ==
+
+AcLBUgQAAQoABgUCao2o8AAA1g4QACwEHVcuG2Pow03NrV9yt3T6kViXeoWinD0aq/RZMrpDxD5d
+UDOG9CQ+KkvCFBIzW7bsXADsXIuY0FPoKLOJ+dtFVOGogtmn7n4vqzQmlf8stufPt4MMXa0RddT4
+pG+nNW21I4V65Wd7vKk+wro2Bt/P1veUIIZ8g32vP5gHwjGGiacHnXfTtV9G6W8M2LFzWum78vHd
+l4R7KEL5mDtbJJERg20l0e3h6K82fky5nAhGjaJ6D7sLDc0QM1NVTHYgZAqo2VH6/0MYZgAS2LKB
+Vb3Kt062GEZN9glUoY0bDharCLDYwNXWlbgJubFnEnX/ephvX3/ceV69E6qCVB429EXLBKCQOGTn
+nkXpTr/DO8Z3BOV3lT7ShrytURdTkYNQrvHYITxwDhoo4wiYcoaJM94nryFMKeVMwkGVXtsATcY8
+pjnjVoTfQO5sDZaCLOCpi6oQIJ+Dfw6Ut6+oAtoXolX5gAN2VLOZ1VODrK+vKcEZ8Wx5avIq0V4Z
+6fC5hFD46Vh4xxY89KXJjHSqHHJ8OXToyLNObkgOk1/kD+/Q+ft6VAork/Pa9gL+cgH1qx9OVKfs
+8aL9qXnBCenrRq+oUmPvGNbqyglRzEbHkedf9dxSN9iBLxlH0Sb7c+asmyE9Fwj2M8UujI3Ul5w4
+DTT31CZMYiceFYRJJ99XcSeOvdpy
+`
+
+	EncodedStagingGenericAccount = `type: account
+authority-id: appstore
+account-id: appstore
+display-name: appstore
+timestamp: 2026-08-26T09:47:18.2185677Z
+username: appstore
+validation: certified
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcLBUgQAAQoABgUCao62JgAA96MQAFYNXvxWTvJR/C4eKrRPAYaU7hn/nXktnWa6FC+tH7zpqt/1
+3lNSrTIDz54k2oN8kb1gg1ht+jK0ulB8oJeq3i3Gt3r+wpXM9vvNxKBf1QBt2fzYCfQtA/T8nroV
+nP1aPRSnKGjTML2eTMMm1QQ1AN647yTKtgUwlovA8V5scw0/4o8lZy+Qz0XxuXzaqOYf9uTy+k5E
++Fu1uKORgsgqswo8WTHmc/1xJN+2Z8dFA3a5yCVsyeAoRbheKyvEn502xKX05uIB3OnM6DtHk95t
+7LYAkaMpe6/O67c7hmmOMcT5GAK3VhS+a5QG38W8ajmGJUjfydAfO9eYrwcy4StaTvkhCUOQIWTs
+HB7NMNw8JuoLUdJCyrEOIbYzMTJjvtNlwSyFCM9bozQo15fSqnfQUMRMDlOgjle+2/HS+9ERrF3l
+kOdRh/rtC9iUsFVlWVqfgNR8TuS27AHuLSDQ4tFQ8LUKUC5wWj8LdZdI8E9sxJxeVqozF7n6PqTh
+RU2gTKc0ZaG4935cQnh+69dhoMylOhrMyTqgUAJrQ9Ur1vHWMw4mHFXoRl6NXoeLnrFMM4lYv+Q5
+4mfqTfqQ8fqhD9Cp/4kWUwBmL/bSTVMgwzAxnfrsOf9pUYHE8kN3rlPT3L0lomh7XhG6Vw1rtR/G
+JvbCiexa0DQa3z2qDqAtbP3LnvXO
+`
+
+	EncodedStagingGenericModelsAccountKey = `type: account-key
+authority-id: appstore
+public-key-sha3-384: HzSHhuxvyeYUNVAEN_hDnSU-0hTQi1IJRyRjYj6DUEzbANv6_PjD0mlT84lBdV9P
+account-id: appstore
+name: snapstore-key-models
+since: 2026-08-25T14:39:18.6998298Z
+body-length: 717
+sign-key-sha3-384: f9_WmvZSVpG_Yzl4xeWEsDCH2fJ5Ws3MWl6TQlRrPHpQMvR2aCcI5sB17UxO-wGs
+
+AcbBTQRWhcGAARAAvhg16fd/afOYDx2xC99q9il200LOdIQR7jcfGLcIuqanwhs/BZQglEAlwEEe
+bHjerAXGCYApsNsUP+iKJjesPyd8XtiDNs0JXkNtPbROPwEPJqThqCoDdSS0DLdcqNginJ7WYQqY
+5o9tc78KUL51mQJckMzYFh+Ox5j2tnNoQoZP/ovX2xv6CvhSBh3w+06LudNnK9Zwivom1ADobpak
+YlGqFZLEiig1QFlNh73LBOiK06w8LXgINy9MggcLj0y0oKq6PEZ2px1iNqtRIVAVau+kXIcQ4mPw
+q37BxhDNSVRepj2qONTQ6zPEeHzRDQ4SnnXJDYvcfAYVlawwMu285gIeT0ezSyVuJqsCcZyzqj8a
+n3W8hozWjy1qy3AQCBvTnszDGfzDkgxjwgyP1m2qwtB4FX+fmF2JFqbPViv1rX1RoSejd6VNRvFZ
+vKmMFDTim3NLBaoZzPuwprBo142ceXcmg6/ACcl7zH245qb3+E3Aywra3K4iYoY/80RfjJuVU3hJ
+9wnnhaFGN2/K9uHHtDI0QSQLC9EbO6cJ1NTGMsNeVjjRTTqIpp3a54HbjkalxFa/be3WfmlHugCz
+dQX55B6/Fj2Wt1tWAuXV0WBBpHgaojKFMdz7+RI4d5MptROngwjZAPHFfuIKEOxfKxSGK07VA5sO
+5xcE72Tm6c0LxUEAEQEAAQ==
+
+AcLBUgQAAQoABgUCao2pFwAAFnwQABUNixxQ5hyM29TaecRz+EgC2azkKXt2F2ghY4Ygw7E4Ly18
+q9WGP32l9q8YfsuId4lGq9M6jejlnOZnzaNiJ0bkRA7UlEf92DpO0JTfNGLhD9rt/BaaKY9es2yt
+Tgw9Hw6D4EJHXBkcyyuYxFzeLMCshrgEw4oSkemL+0kPQ1ve728LGt0Btl2Wzy8KQnBzwD6qC5VC
+4fMQLmtu3GpX86vl3N0YHAis2zlB+nhOtDPjsTLfewF0xmcDlFm3HF9xl+hgkIAwWKxW9/oNlpWG
+hhUEr6uwHuYhy2EVaLHrPXRQzZU4m66FogdfJgwap99CEcbOVRWZNYZRTWYtGgA1Ex9bc9ioqWDn
+2ob2t3gWh/zZxuqtFrdLCGBcNLIWsqs/7mioXPrDyDQ2KdLZVrahk+SwkRiDKNl1K2//rzgSlTg1
+5BMD0okibcfOUG9raW4Pa5hXshzC0lUbN8spk1awKPPdcN1h54qr59K97B6cwgRK8JyIxu9A9kcj
+UtihqyjyKR5fFiflZt8DGJfSehSM3EitC4BaMvXp1u6fcSv/8lTbAhZCAc47gY1cGfQemhm8P6KC
+VF15xHo2/3fImKHAJWTd9jdLmWn02lTVK5t2QkWyEdqmtUOVnFKM7mtzl8hzevK6ZQaRru53xlFq
+v7Wj+Kkq8a1x5GGIItlYAnxBUvTR
+`
+
+	EncodedStagingGenericClassicModel = `type: model
+authority-id: appstore
+revision: 1
+series: 16
+brand-id: appstore
+model: generic-arm64
+architecture: arm64
+classic: true
+timestamp: 2026-08-25T14:39:32.32242Z
+sign-key-sha3-384: HzSHhuxvyeYUNVAEN_hDnSU-0hTQi1IJRyRjYj6DUEzbANv6_PjD0mlT84lBdV9P
+
+AcLBUgQAAQoABgUCao2pJgAAbs4QAAh6Ct2CU+9akbfXfo+chZnNCFQmhJytKuc2ymp+jxv+kF7q
+F6URf4ubeCBCF6we2nbJYjVcmvn8qpxrJdZyR1oPBd9igAcl9hOl/IfEeA8cOgsbntLU9SuXqHUJ
+miNuuedxG0pdtw/WboIZi4Cou9f6JZ7gjj5e89r5L9SebDtFsi7x3nieq6yltFH6fLMklA2VkRP1
+LPNAlPYyQbXk1UJkN42NZ6cDmWak3D1yoArb4bbP1ZGKmZz6isXyN99KnthcW0kybxhwFsWt7Dc8
+cshbeO4tClSAkUYQNykWIY0GamjNSDUUtCsNnA2pXMYtwaJUi0FWRPp+ujCyov/tEtbdiQqM0FIC
+TuSmLdJPDqTq+0xBeHBJ5gfmiEErh83gFQpyodt/NZOSi7snAo+IYblJybX7Mq+pwpKLUdzUBUu1
+Bzz+DT9o3/XbrufF4CkZxkqaDuuoj7PSj92W5rYxgpwujykQUPkUGmhRwuI8qmyMG3dzF3xbvaDI
+S0gYiXYPRYpNe5uPcsP+PUw73o5Fx3qTIw/FJH1Y/M0vxWgK7AvEvuiQ3xuvQpqrGx9ebDr/L8K6
+qvOlDaoh8652aH18qNNVCQmx1ctKhOvR/6ZenybE1OafQhdEtqaTwp+GZK/6gmYPJi7yMnAvAwAh
+6sDgo7Yigzre9QFkILt0vEGotkfp
+`
+)
+

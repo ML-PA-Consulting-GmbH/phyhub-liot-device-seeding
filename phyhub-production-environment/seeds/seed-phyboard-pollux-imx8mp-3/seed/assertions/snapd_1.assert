@@ -1,0 +1,43 @@
+type: snap-revision
+authority-id: appstore
+snap-sha3-384: zW3KQRd1tMBe59AdsG3-AYZa_yETvdFzC4iCx8GfFs0WyrXr8iNIre4EZF7Z1WHz
+developer-id: appstore
+provenance: global-upload
+snap-id: 0682f36da73c49d8a55effdf65533f9d
+snap-revision: 1
+snap-size: 61399040
+timestamp: 2026-08-26T10:21:00.0341135Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCao6+DAAArLwQAIbvp009Q6nsGKahgHtKEn7nf29nOtuj9HzLoXrQfRrUDnfs
+7D7SpJVjbRGGenj4WOMZ1HspYvE43NZGz8weLVSU2OevlH0YnuvNusH6wsOC4OfU7fzS7cnQOjaf
+4pnGggyYzfGQiEJ8yYgJu+tsKaz60fSAO9N/eLtO5nLEaneY9i9Dz2xShrZ/FFayJiiSFV4Tb0Bd
+s94Ju40bHHqo7KLS9BcA6sAdaOmYDifNffUA+FORIXhy9caXrPLbHlgfKZuoRuTvB4W7YKpaUiwa
+6Z8b7HFM9hxH3vR+BfxXLmtIySPGmxCQC3itinmnAIPcY09j2BymN8TxPH3k8HC4b2+phsmToHT4
+1IXdtalHfbFkn2qkqCuRomzDWy5kMLMXUq401dYgZ6hBThsrooHyTq5zTYj1YeHCAhI++8uXnbz/
+s5g8rFx8cpmqbV6Fcao1cizpwopK1izNO36+ewq+x6R0RA3i0DCUIaDQ/xxpTQinJfRhnDaGOjEQ
+/+7FbKd2hmhx9oIm7zbWcS5RlnZ/Fd2BAX9aIrHubi82CEl6frM9smji/W7QtGgDMq+oIxv/FOfK
+5pYVnEFVTFUPcXMeQQoI0fYGp3Ra6hjMjQSxV8tJeLD1Xnpcr0dP9+gzedjU9URK83mmKtbFZyG3
+rOkfhY6gxRDU6xymqvTbFCMZoVRF
+
+type: snap-declaration
+format: 5
+authority-id: appstore
+revision: 1
+series: 16
+snap-id: 0682f36da73c49d8a55effdf65533f9d
+publisher-id: appstore
+snap-name: snapd
+timestamp: 2026-08-26T10:20:59.3986914Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCao6+CwAAtLEQAAPS8qGViJgsnQ8gm5a/FDtjFyw6vVTqh4CcTfK+EMAuJ22c
+WhKVZnTck3MbipbR4vq5iLSQVr3jbzbk8q4MzZJUxCGvCOsd8NgIj0URA6xfJ5K532Brk2WeBKDo
+f5AV1YPVnarFcnPS6uvdbMnuT0AKYar+rxmJaXP7HcjfJLbrnOGbpj449rDdBXOaBKrMIy5tqXoi
+Ci8DyuLp2Y5JjMpsOpUAVaXKCHxixDRg/PZIKeWnm3+ZS/unODCPk/JKd08k/lUG/St7lHEWBu/0
+wA1mqV+rBs6GvSMlkHGzqMm+0fSJXGQzVHSIrfKhpl7sLDir6qcLg5p0GRruhEQ3HcqObgzZIv0h
+y2I9RK6au5Zwl/BSmhpSNnuJUzFgWns7ic4Z+njAaDIJkMTKkrGDdv/0sO0xegqzsR8KqVDDUUkw
+fXi8J1qMbPye9tsdYhBCK7cRkCmGV314hTAV+rWVxbXpwR73WO7ubsloySLZ2hy0Yj9BMu2XQsHJ
+dgXE2D+UzTJ8KW0g9cGdP7z5xUrcEwccUZaLv8lZI/gI2isTlOac/iEzjiE3IOdvV3IN4m0+j5L3
+5FVr98gl83hUE2fCHNytfAFKhJroQEIVInOYEdJTNn9VDTKKkv8qHN+d47MlQVAnrEt8Jy+jywAC
+t2x0emQnKy3HOY9aFt/GJ1bkNyjT

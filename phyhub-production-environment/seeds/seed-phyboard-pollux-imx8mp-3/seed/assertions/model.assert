@@ -1,0 +1,21 @@
+type: model
+authority-id: appstore
+revision: 1
+series: 16
+brand-id: appstore
+model: phyboard-pollux-imx8mp-3
+architecture: arm64
+classic: true
+timestamp: 2026-08-26T10:11:59.7236953Z
+sign-key-sha3-384: HzSHhuxvyeYUNVAEN_hDnSU-0hTQi1IJRyRjYj6DUEzbANv6_PjD0mlT84lBdV9P
+
+AcLBUgQAAQoABgUCao677wAA5egQADZtKTY1D90nMs5J+zNczmCh0E43HiCgyz9BIu2xu02P4Bcs
+nqJetPeZz8P5atDMA17qC/Rztn04egePSym64l3u7te50pkOUCmpKlscVRfZbKBCDruXJ8MHS44W
+XSBM8M5awHHMdKnef+NT0sbbQueaTXa69zpsFUfYIVgte3INc3KK4d2e8eMOhm6IL/ipaGXNkMbw
+zlZvOO+0bFvF7e0lLKPf4eqbd6uYD0lgH5nryGqeNtMbQnVL267DHdbT+x1GqfL/2S9qIpui+cyv
+b+9+49hCXKU5s70ij4gJDGcYMHqJX+34bwoJBchUUTbk8yTZVLdrzA143oAaMRY8uIM2129q5aQj
+0Ya3dW24VIr2mkkTYlZLEhyqzWlfje2AnDGiGqf99/aIxEt4PNft5khjkz0QhtwFo78ouPT2BvfE
+Ntke0lzAwm1a0t0cUpUtm2O4xp52NurbNEx7CJuWdf+9FDH1KFnrU0XyrWqS0DGEZInIis/grXib
+8YOUoa6qiBFebtvQZd9KlBlRX6NWxC007hyTI7x+LBdrmHjdM0gHvcsxzl8ImOIygbFBtgWVaqtV
+WpFa1n252sw60m1qfCglaYdx0j/bCLXlBgCIXcn1favOw1xbv+fQjAVsgAhDpsUDoeOu7PeppdVL
++VuZPMczvq/cSTNSeD36UQlE4gj3
