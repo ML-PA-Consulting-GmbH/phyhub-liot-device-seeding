@@ -1,0 +1,105 @@
+type: snap-revision
+authority-id: appstore
+snap-sha3-384: KgY4dF--x2Eqnx0NAmh1eIe-OgxqKTqcX7hZ1YLpUwJ4Ehk2Z2_e4LjHV0TF1-PC
+developer-id: appstore
+provenance: global-upload
+snap-id: 764abfd79ddd204333e6a06a970b6bf5
+snap-revision: 1
+snap-size: 7077888
+timestamp: 2026-08-25T15:07:53.7876526Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCao2vyQAAghkQAAd6isxvknq8a6Vbgyv6YGOLOUE7w26PaoWG1kD6Spz2BtPZ
+uEmdAQjGWLRuztUAIeKjXfXFw+OhtNGUUKyFEThM17ZZcCoH1hJq4US2haPLukE/2+aCRDa50HKr
+UE29hh7r6ncnrasYWuRSx9HOy4vuCM3vPzuypjqjvMqAYA7TSvQqmcXn65iuicPyJA4R5nGLNJ5g
+ucT0P9dNo3+8xqhxeXyofxJ39/DTFnmY419T2JBQlXIitP0Hx+94KVFw6yZoL667P+rKZUu4uld1
+ng5bbo1gxa0bgnguM+dlx5qO0HPmUVBa2Ps/TdDE7Hqza2TgMiRa4V6YM1CKomVACCI18BE+GvYr
+jmlAJIUHNU0FwI4CYGX+nFJexlGKqQpeb2d5x9NI00BNxKkBlCCgwNC2U4XQXU9wBQ4bldmTt7mW
+fF+hPvLItAiCCj6finLb+1hAEc/wJbXnzkQAwVGo3zmJ52prUqYvfiNKEf77/TYLJBAbUE6+M36p
+u11YCpsWWVljFmGel7Rw//gzj0wO8i/VCmJr6+/zNeLzFcGsIZbUyFinKCeaEDmTrqc+wrLno0Nj
+DtvGG2iCLImCmDlG3U+u+v91rCOh5LPAUAwUMwz4hjmdmqpfG2D9Gg1RZLNGEXUcGRxYpWf1QX2e
+t0jt5RHNtswaz3szo9nrjh2/M5hy
+
+type: snap-declaration
+format: 5
+authority-id: appstore
+revision: 1
+series: 16
+snap-id: 764abfd79ddd204333e6a06a970b6bf5
+plugs:
+  hostname-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network:
+    allow-auto-connection: true
+    allow-installation: true
+  network-bind:
+    allow-auto-connection: true
+    allow-installation: true
+  network-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network-observe:
+    allow-auto-connection: true
+    allow-installation: true
+  network-setup-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network-setup-observe:
+    allow-auto-connection: true
+    allow-installation: true
+  network-status:
+    allow-auto-connection: true
+    allow-installation: true
+  shutdown:
+    allow-auto-connection: true
+    allow-installation: true
+  snapd-control:
+    allow-auto-connection: true
+    allow-installation: true
+  ssh-keys:
+    allow-auto-connection: true
+    allow-installation: true
+  ssh-public-keys:
+    allow-auto-connection: true
+    allow-installation: true
+  system-files:
+    allow-auto-connection: true
+    allow-installation:
+      -
+        plug-attributes:
+          read:
+            - /var/lib/snapd/seed
+        plug-names:
+          - operating-system-version-information
+  system-observe:
+    allow-auto-connection: true
+    allow-installation: true
+publisher-id: appstore
+slots:
+  dbus:
+    allow-auto-connection: true
+    allow-connection: true
+    allow-installation:
+      -
+        slot-attributes:
+          bus: system
+          name: com.mlpa.gateway.ota
+      -
+        slot-attributes:
+          bus: system
+          name: com.mlpa.gateway.mqtt
+snap-name: m2cp-gateway
+timestamp: 2026-08-25T15:07:53.5480064Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCao2vyQAAv1AQACQbByD4hzYCimlH5BPr78kf7xRlltmroM9P5on7y3YEw0dM
+2lz+jjm2RQw1azSGA4Zf1QAPIU1Nx9dmC3+amT3N4b2CiEiuNaJYhYjyHwQh4uYVAVvJov4caXH7
+7+Pme8Ii6coKmwgy0e2gZmGRHnVbcz6ccTrPbWSmngGesT7W4ywGsU66scTnYwbd97zbkIwbM0Wq
+etw093fL8MF3ccSpeaKrybNv1ZJ/5nvOmdWXjanlr3kQBRYD4MaHZf9BBxqOh+IVJ8AMgZsgnKJ+
+SRe5y7LyKsXTAF7U6NoVyYjMUtRCCWoziJlVkYXtQGcQ1Bx0jmxNNXwxFl4LCOds3gGsVMHf+xmd
+quQq5MiTqkPCD8A+h2WtsKEGNcEctBmDxywaVed0rTE0a8ZW0AY6UCxmLQ6vqNeWAn+wUw79MLHq
+r9avhIgA6pVvXPRSL9CFTOtbhj4XOWwJJ7c7htFzTSEtOwjQbX41A+PzgaZYGT3NVac+okosg19H
+C8JsWSWERm7+/Ynx+iS5PQzToxDSgf1if7UD6MsrjCpVCfBK5QWhltwH4NRX9Agsrq18OHXTVJ+G
+p7a+EigfzMISOggVnb8txbwNDqyfRKn5ehWdaahfmP/1UF/XjRhcLVJwhW7drdIcwCNLpiAUPWNK
+l32CYAjcwtnD4My/I6xEo+g54NII
