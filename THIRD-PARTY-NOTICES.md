@@ -23,10 +23,10 @@ equivalent access to the corresponding source and may be used instead.
 
 ### core24
 
-- Publisher: Canonical Ltd.
-- Licence: Multiple (GPL-2.0, GPL-3.0, LGPL, MIT, BSD and others)
-- Corresponding source: https://archive.ubuntu.com/ubuntu/ (Ubuntu 24.04 source packages)
-- Note: Ubuntu 24.04 base snap. Contains many packages under differing licences, several of them copyleft.
+- Publisher: ML!PA Consulting GmbH. This is ML!PA's own build, signed and published through ML!PA's own snap store (`developer-id: appstore` in the snap-revision assertion) — it is not Canonical's stock `core24` artifact, even though it wraps Ubuntu Core 24.04.
+- Licence: Believed to still contain Ubuntu Core 24.04-derived packages under GPL-2.0, GPL-3.0, LGPL, MIT, BSD and others, since it is built as a wrapper around that base. Contents were not independently re-verified for this notice (no `.snap` unpacking tool was available) — confirm before publishing.
+- Corresponding source: https://archive.ubuntu.com/ubuntu/ (Ubuntu 24.04 source packages) for the inherited Ubuntu content. For ML!PA's own wrapper/build recipe, contact **opensource@ml-pa.com**.
+- Note: ML!PA-built base snap wrapping Ubuntu Core 24.04. Likely still contains many packages under differing licences, several of them copyleft, inherited from the Ubuntu base — treat the written offer above as applicable unless ML!PA confirms otherwise.
 - Files: 5, approximately 292.2 MB
 
   - `phyhub-production-environment/seeds/seed-phyboard-pollux-imx8mp-3/seed/snaps/core24_1.snap`
