@@ -61,9 +61,16 @@ equivalent access to the corresponding source and may be used instead.
 
 ### m2cp-message-hub
 
-- Publisher: ML!PA Consulting GmbH (own build, not third-party)
-- Licence: Proprietary - ML!PA Consulting GmbH. Not licensed under the GPL or LGPL, so the written offer above does not apply to this component.
-- Corresponding source: not applicable (proprietary, in-house build)
+- Publisher: ML!PA Consulting GmbH. Built on LavinMQ (Copyright 2018 84codes AB, https://github.com/cloudamqp/lavinmq).
+- Licence: Apache-2.0 (LavinMQ's licence, full text at https://www.apache.org/licenses/LICENSE-2.0). Apache-2.0 is permissive, not copyleft, so the GPL/LGPL written offer above does not apply — but redistribution must retain LavinMQ's copyright notice, include a copy of the Apache-2.0 licence text, and reproduce LavinMQ's NOTICE file content:
+  > LavinMQ
+  > Copyright 2018 84codes AB.
+  >
+  > This product includes software developed at
+  > 84codes AB (https://www.84codes.com/).
+  >
+  > LavinMQ is a trademark of 84codes AB
+- Corresponding source: https://github.com/cloudamqp/lavinmq (LavinMQ upstream) for the LavinMQ portion. ML!PA's own changes/additions on top are not separately disclosed here — confirm with ML!PA whether this build modifies LavinMQ beyond configuration.
 - Files: 5, approximately 49.9 MB
 
   - `phyhub-production-environment/seeds/seed-phyboard-pollux-imx8mp-3/seed/snaps/m2cp-message-hub_1.snap`
