@@ -61,7 +61,7 @@ equivalent access to the corresponding source and may be used instead.
 
 ### m2cp-message-hub
 
-- Publisher: ML!PA Consulting GmbH. Built on LavinMQ (Copyright 2018 84codes AB, https://github.com/cloudamqp/lavinmq).
+- Publisher: ML!PA Consulting GmbH, snap-packaged from ML!PA's private build kit at `ML-PA-Consulting-GmbH/m2cp-message-hub` around an **unmodified** LavinMQ (Copyright 2018 84codes AB, https://github.com/cloudamqp/lavinmq). The build kit's `dependencies.json` pins LavinMQ 2.9.3-1 and fetches it as the official `.deb` (arm64/amd64) straight from CloudAMQP's own packagecloud repository, with a checksum recorded — it is not rebuilt from patched source the way this repository's `snapd` and `core24` are.
 - Licence: Apache-2.0 (LavinMQ's licence, full text at https://www.apache.org/licenses/LICENSE-2.0). Apache-2.0 is permissive, not copyleft, so the GPL/LGPL written offer above does not apply — but redistribution must retain LavinMQ's copyright notice, include a copy of the Apache-2.0 licence text, and reproduce LavinMQ's NOTICE file content:
   > LavinMQ
   > Copyright 2018 84codes AB.
@@ -70,7 +70,7 @@ equivalent access to the corresponding source and may be used instead.
   > 84codes AB (https://www.84codes.com/).
   >
   > LavinMQ is a trademark of 84codes AB
-- Corresponding source: https://github.com/cloudamqp/lavinmq (LavinMQ upstream) for the LavinMQ portion. ML!PA's own changes/additions on top are not separately disclosed here — confirm with ML!PA whether this build modifies LavinMQ beyond configuration.
+- Corresponding source: LavinMQ 2.9.3, https://github.com/cloudamqp/lavinmq (tag v2.9.3), or the exact package at `https://packagecloud.io/cloudamqp/lavinmq/ubuntu/pool/noble/main/l/lavinmq/lavinmq_2.9.3-1_<arch>.deb`. ML!PA's own snap-packaging layer (systemd units, snap metadata under `src/snap/`) is proprietary and not separately disclosed here.
 - Files: 5, approximately 49.9 MB
 
   - `phyhub-production-environment/seeds/seed-phyboard-pollux-imx8mp-3/seed/snaps/m2cp-message-hub_1.snap`
