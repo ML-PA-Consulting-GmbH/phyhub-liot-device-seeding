@@ -81,10 +81,10 @@ equivalent access to the corresponding source and may be used instead.
 
 ### snapd
 
-- Publisher: Canonical Ltd.
-- Licence: GPL-3.0-only
-- Corresponding source: https://github.com/canonical/snapd
-- Note: The snap daemon. Copyleft: the corresponding source must be made available to anyone who receives this binary.
+- Publisher: Canonical Ltd. (upstream), built by ML!PA Consulting GmbH from its own build kit at `ML-PA-Consulting-GmbH/snapd-snap` — a snapd source tree patched with a custom `constants.go` (store URLs, snap IDs, account keys) and at least one ML!PA-specific build script, then compiled via that repo's Docker-based build. This is not Canonical's unmodified snapd binary.
+- Licence: GPL-3.0-only (unchanged by the patching).
+- Corresponding source: `ML-PA-Consulting-GmbH/snapd-snap` holds the actual patched source and build scripts for the binary distributed here, but that repository is **private** — linking to unmodified upstream (https://github.com/canonical/snapd) alone would not satisfy GPL-3.0's corresponding-source obligation for a modified build. Use the written offer above (**opensource@ml-pa.com**) to obtain the actual corresponding source; do not rely on the upstream link by itself.
+- Note: The snap daemon, patched for ML!PA's own store. Copyleft: the corresponding *modified* source must be made available to anyone who receives this binary, per GPL-3.0 §6 — the written offer is the compliance mechanism here since the build repo is private.
 - Files: 5, approximately 292.7 MB
 
   - `phyhub-production-environment/seeds/seed-phyboard-pollux-imx8mp-3/seed/snaps/snapd_3.snap`
