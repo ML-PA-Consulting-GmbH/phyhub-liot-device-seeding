@@ -23,10 +23,10 @@ equivalent access to the corresponding source and may be used instead.
 
 ### core24
 
-- Publisher: ML!PA Consulting GmbH. This is ML!PA's own build, signed and published through ML!PA's own snap store (`developer-id: appstore` in the snap-revision assertion) — it is not Canonical's stock `core24` artifact, even though it wraps Ubuntu Core 24.04.
-- Licence: Wraps Canonical's Ubuntu Core 24.04 base snap, which contains packages under GPL-2.0, GPL-3.0, LGPL, MIT, BSD and others. The exact contents of this specific build were not independently re-verified for this notice (no `.snap` unpacking tool was available) — confirm nothing else was added or changed by the wrapping before publishing.
-- Corresponding source: https://archive.ubuntu.com/ubuntu/ (Ubuntu 24.04 source packages) for the inherited Ubuntu content. For ML!PA's own wrapper/build recipe, contact **opensource@ml-pa.com**.
-- Note: ML!PA-built base snap wrapping Ubuntu Core 24.04. Contains many packages under differing licences inherited from the Ubuntu base, several of them copyleft — the written offer above applies.
+- Publisher: ML!PA Consulting GmbH, built from the private build kit at `ML-PA-Consulting-GmbH/core24`. Per that repo's `dependencies.json`, the base is Canonical Ltd.'s official, unmodified `core24` snap (snap-id `dwTAh7MZZ01zyriOZErqd1JynQLiOGvM`, version `20260410`, revision 1644 arm64 / 1643 amd64), fetched from the snap store. The build kit's `build.sh` then unpacks it, merges in a small `etc/` overlay (login banner/MOTD text, a `writable` marker — no code), rewrites the version string in `meta/snap.yaml`, disables SSH password authentication (`PasswordAuthentication no` in `etc/ssh/sshd_config`), and repacks it — signed and republished through ML!PA's own snap store (`developer-id: appstore` in the snap-revision assertion). Not Canonical's stock artifact.
+- Licence: Multiple (GPL-2.0, GPL-3.0, LGPL, MIT, BSD and others), inherited from the Ubuntu Core 24.04 package set that Canonical's core24 snap ships — confirmed via the pinned upstream version above, not a guess.
+- Corresponding source: https://archive.ubuntu.com/ubuntu/ (Ubuntu 24.04 source packages) for the inherited Ubuntu content — Canonical does not publish a separate build-recipe repository for `core24` the way it does for `snapd`. ML!PA's own overlay/build recipe lives in the private `ML-PA-Consulting-GmbH/core24` repo; use the written offer above (**opensource@ml-pa.com**) to obtain it.
+- Note: ML!PA-built base snap wrapping Canonical's core24. Contains many packages under differing licences inherited from the Ubuntu base, several of them copyleft — the written offer above applies. ML!PA's own changes are limited to configuration (MOTD, SSH hardening, version string), not a source-level patch to any GPL/LGPL package itself.
 - Files: 5, approximately 292.2 MB
 
   - `phyhub-production-environment/seeds/seed-phyboard-pollux-imx8mp-3/seed/snaps/core24_1.snap`
