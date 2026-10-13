@@ -1,0 +1,21 @@
+type: model
+authority-id: appstore
+revision: 1
+series: 16
+brand-id: appstore
+model: phyboard-nash-imx93-1
+architecture: arm64
+classic: true
+timestamp: 2026-10-13T10:50:18.3418641Z
+sign-key-sha3-384: HzSHhuxvyeYUNVAEN_hDnSU-0hTQi1IJRyRjYj6DUEzbANv6_PjD0mlT84lBdV9P
+
+AcLBUgQAAQoABgUCas4M6wAA108QAGmKZa3mlsCQlKIiCAVImOSsp+BtB7PYgm2GtmyKbrXSuiX3
+CSpRSi8frubvw6qbxSGGRYnigGXQMUqFG6IjkPBk21rCYHg/PitJTF6aj6zoOVSHuep1tcbGKh+U
+UcdegKxtH903uLyhXz2t+u5Rgzg9V6JPKsndi9xBq8pwvPh2kw9tzIaa8HZfJgLTWanWTSfQ9i+Y
+Egwt1e/yOmpEoM+LWTomLAGwQ2WvPL+RihGjPzBHnQFIyU+MbDTaDB/l0WozqE0+eaWzJ1JQksx/
+beU9loOy/0rOnQ8jRYyhGqTMJFz4SAvTRZEf4vsdAFz4xIPdZTzdpaz+LPrI21CzBFMIJoF/HOB/
+2QMMCYs5I1+bTGh7ZR2KwIIRDALXG7URmnGkhvgTAKTDCBP9ot1JoW5dnQuyCUaljlA/TTE4bXxI
+i+DXwiX3ojqdMHJMNi4og38bG7IXXZQFqDbPtvVQqwCHFuUgviuyvzqJfjrooRVEGNZlXct3sR1D
+fECy7QScaCnLeb6ulmbZSdYP2nWwzHOKOcv4xI1CENGsYhameJNQFFr7gpUgzqtCXSPU0iJXLzIa
+lny/Yo0wFZOnmBijkMZNVI6LyFUQMgoOPjjBpGLwVohOBYZjRuYMT29+0zoXSrJaCrOBssdWdGGG
+w0SMcmlSjO89PdVmfJ1AgB051C/5

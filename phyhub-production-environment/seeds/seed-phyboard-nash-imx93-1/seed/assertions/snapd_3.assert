@@ -1,0 +1,43 @@
+type: snap-revision
+authority-id: appstore
+snap-sha3-384: Lz3qb6wTERWjDCBe9v-D7DULC5RlAlhL7bKIf1oaWto39U6XFHaAzd-T3o7gSlKb
+developer-id: appstore
+provenance: global-upload
+snap-id: 0682f36da73c49d8a55effdf65533f9d
+snap-revision: 3
+snap-size: 61399040
+timestamp: 2026-08-28T14:49:31.2586155Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCapGf+wAA+c0QAEqR/G0EcNPI4s/lkMaW1UZ6jSmIcAHjYQTV4TRp0c1jaXS6
+ZGM0v+oHrYghOXyWOJqa8A1SUGEJaaVodrNRO/jZwDIKK8UR7RPJygHRlSknWFCmEBUiSBmyO8+m
+yLuTqgOKWnVA/N1KIsRf0ficvmbVBBIMrnRzPDrkHVQyguK0vGj5PrwlnL3nefsybmT7QWoUgXPQ
+/nHIxRNqEyQGGQMcKDfmaMXJtxZoLmNet/qfuz2q9xxSuZCEh0JD7W0S3CqIrTc8AvU/xZfozA9V
+cnOQDm7JUNqnOteUgUzyf+M8zazkN2qD0dkF8FGHG49tpn3B2EYJpM9th74V701LGOv94dsZ0m+Q
+dmkU8dir/y5jKqk0TcwllMFa0DWhX8g02Z0Ti0Nnykjor81RQvaaXQgy+jpzClu+SxhOiT0kK2ui
+AN5U93+bJhM+3KIm+t2IkCBk7lmz2pIrdP1laC55m3wexHams2aIV4qKV3DSNqX89PMGYU+caCzj
+BnhtcALpTwylJI3oBiqwJGLDjlqwi68mOrvwhs1uniBCiXY45m60WRetAn1xqiWAM8e4olcpehhz
+gT81M5oyHfYKk/MNrPA1nudk/JCZBrjHAuK0kV7aGAW/Xb7pSML4ClJ4Oc/lEBgyWCKPraU+Fbbg
+0q6GTpGBGiHtZWaXk07a8cuSEBGk
+
+type: snap-declaration
+format: 5
+authority-id: appstore
+revision: 3
+series: 16
+snap-id: 0682f36da73c49d8a55effdf65533f9d
+publisher-id: appstore
+snap-name: snapd
+timestamp: 2026-08-28T14:49:30.9882541Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCapGf+wAA5OoQAE0HM+UtvdJSQA0uAt58cnwLYI+jJJjbignktylSW0J7obOA
+wIWymBBLaw75h7x9laeqqST0wTqz5JJ56p/Bg6o1KUOTLL97fXrSkgE3cgFE4yJ717pbEgqAz9Jz
+JDHsapSOLDdP45CszEBWqqHqVgWeJFXexFxDNaX0tO6GkElWwi3AJuZ9Q4m2N51cC+GPw5JHGzZi
+gy86qCuINmMrcU0YJBRzQke1uOgkceeDH6ufTQtBZ+1FjvyyYn1NtqcPA/0sWvaY+aMIeViTvFBC
+1z/WezamFxCdKgn21S24uoJq04QY08fdC2IEe00KD2fenB1ti68m+QkPb5nhK0GoQNqPK0PNkwUW
+c1XaeNW/9R25I2/eM4CLSY5L0T7Q3brPtpL1HjNn/1eMDEHa6VDE/rixhZIfU18Bzp1sFji+phyl
+e0IeJKHWovMTz6CqeJbLR/BmaWiC320CW9Y7+XZaYlYlk7IbyMAcY8enb93YixxdmJUhWsu0CkZR
+0ExVCmoDDTewjzZH2tIejCNNohXT2bCoXzxl/tWtCMaUzMzByTlmLPzFqY8YLaytnYRaSFnb+aqE
+CDWOFMO1V+Im/VZT+9/JczN+NVXncgu02iOQgLq4+qoIq+GQI+k+WfgsQKDDTqmn5hzN/PUX7I1l
+dS05FX9JR6qutGlGIhVyeq4BNAjb

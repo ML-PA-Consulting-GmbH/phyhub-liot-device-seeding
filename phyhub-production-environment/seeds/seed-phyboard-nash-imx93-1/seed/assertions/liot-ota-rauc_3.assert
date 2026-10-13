@@ -1,0 +1,69 @@
+type: snap-revision
+authority-id: appstore
+snap-sha3-384: vAm_PO2fLt8ZFm8_guJm2e7BDJLqcXraYvQEvzPex9alyZjxxmeCj3a3wpDcXiE2
+developer-id: appstore
+provenance: global-upload
+snap-id: 09a9e94c38b5245a3cc879f016059539
+snap-revision: 3
+snap-size: 5922816
+timestamp: 2026-08-26T10:43:02.9354654Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCao7DNwAA1/4QAFQZ9gbCVl1i/F+nYGr/sk9dSmZtEZ5B0v8ICn7t14l8esKP
+xZnPnEE1nBJqFT2a9aPf64tvdUmvWJ0DJkEbZcyeHJ4+T7TYsTxEBRcI/SkMZVSLQs946EZo9VMx
+u2go9Sc/yimT4RpN19nyYj7T/xrq/6DKLUippGsK1MRKIeLxHjZ9RVL63eSJ2bhnYXgJV1eCfT+M
+ogY0CiC17OGj4RNuDRu1kJtYTf0FeuKZm9BLr1Z9UA2FhQb66rcsQC2jDU7RrhUjAqYguHvPAa2J
+YtO8dpnidMxrrpLCpkqXsgTbkJKTJybYWGMPuzT5FN/s2qF3HN0S4f/DV3PxNArTx4sKoC9C9MEr
+cCsur9BFkC5/N3bp7tSqZgmj/SEhaZdHgtLbYVClatxCmelsaF6orTnK2T5ZaOqXrQn7mOxVK1Fn
+JD19MOMufcvKJQqqGjHMrrmaZiZg18/kdOKWLYb8/BVpnG7I6s+sHf32qnh0AnYzvyOsHaPnSJwY
+NLOTQB921ppWLJrAqOSYSc2SHJ+kQxNzJK/BPRPvv9DoYVFmtY+efpA7iJmEUq4NyvE9gJnZspaz
+y7xUxCcdQUb4zkHSBoZ1qzWqFEPQjH+XbsJsg7eFV4PElcdte9G7kYUwi8ev+79vA8pGryggfXx/
+K4vF3YnTcOfDXc4QsuHxhcivIJ7v
+
+type: snap-declaration
+format: 5
+authority-id: appstore
+revision: 3
+series: 16
+snap-id: 09a9e94c38b5245a3cc879f016059539
+plugs:
+  dbus:
+    allow-auto-connection: true
+    allow-installation:
+      -
+        plug-attributes:
+          bus: system
+          name: com.mlpa.gateway.ota
+  network:
+    allow-auto-connection: true
+    allow-installation: true
+  network-bind:
+    allow-auto-connection: true
+    allow-installation: true
+  rauc-support:
+    allow-auto-connection: true
+    allow-installation: true
+  system-files:
+    allow-auto-connection: true
+    allow-installation:
+      -
+        plug-attributes:
+          read:
+            - /etc/buildinfo
+        plug-names:
+          - system-files
+publisher-id: appstore
+snap-name: liot-ota-rauc
+timestamp: 2026-08-26T10:43:02.2676832Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCao7DNgAAa9IQAMJFtbWwCJmWXLYjdtXiugGNhEM1u5NWkKCRnsU9jAe+xis6
+wgTrR3pcyOyz4YFyF29tqBs4VIJ+72YpJlT7JBt2gdXsM5m+kMH98P4B+0pOg3is1XmT1u1FMAxm
+ScmWYu2RuVq1z8dGhbzekpezgDM4pRnadvAG41pS45oHdeTZ5NAYLzhrFDlmjvlJGKbEAlqdq8oU
+SxUVWxaSQxABZhZlZgmyvjSzCoJnRxVF+buKuWhShpT3OxjF4S1vylzEeLHZ09uKJ4PeZlatXMdD
+7wlPaMrqX25uE000mmE50WohEEaxVFNNCETw6EnBKDNAI3DJ1OSTBL3luceKHLfxwwZN3g5vNYC1
+QLReZFIUZy6g6Xxmd9396XhOAVWa1Ui+7exXBJtFzKsspIpCJk5AlF5DjnJzHivhdpuCLLhIALwV
+PXEQmsWAmGah7Zsk1tUjc9YY+lp8zqdWyQNPaeK4OBtGhQ7KtH5XIRS38WL2B8VGPgYUulfjaY+v
+xNj3LBGdjFDP2c8o1Pu8ZPuiTW+qu2FLKDO4xV+XxbH84MXilt25ObQ/ZXNd9GpgvQTHa9N+TqJS
+9OjO7bHWEmbA01lw2wRjXVfLPu9jXiH3eraUyqaoTFLoqKoVO+di+fvh1KFR7BsiiNXsLV7mQeHb
+KN1uoPIc93GMR6JaxtE5zdevMP8m
