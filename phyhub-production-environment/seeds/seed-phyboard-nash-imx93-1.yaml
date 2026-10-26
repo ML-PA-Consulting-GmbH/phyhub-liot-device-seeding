@@ -9,7 +9,7 @@ snaps:
   version: 5.1.0.57
 - name: m2cp-gateway
   arch: arm64
-  version: 3.6.0
+  version: 3.6.1
 - name: m2cp-message-hub
   version: 4.8.0
   arch: arm64
