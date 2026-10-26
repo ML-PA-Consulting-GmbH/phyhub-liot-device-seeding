@@ -1,0 +1,68 @@
+type: snap-revision
+authority-id: appstore
+snap-sha3-384: roK2dZMNBFTIDnZs5ViQDZG8RTK2NYeVttKVwOdlbSj0frzS1jYmmQ_K7ibU6vDV
+developer-id: appstore
+provenance: global-upload
+snap-id: 4d709cc4c21d9177578b595485ec23ae
+snap-revision: 2
+snap-size: 10670080
+timestamp: 2026-10-01T14:27:41.6653706Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCar5t3QAAhSQQANw4mEDa003atEjQjILIJXD1O6AZLZh03/XU/6AjJhfjWZyJ
+xcmdE1kP5mkAWPcczDF5IrRgHLFlcF7M4jXrF/w0YzOFmlE1dEJAKg/mSSi8SB1KEuCFe5+sy8e0
+JsigKkRs4VdJr070Eho0QghDjAJcIU8S/CjKmUl8C6Ij2ixmQCTKxMGmHyyzi6Gq5MiA0viFEx0q
+OqF70kIyTS50nrjJf/MaMNHMPe7kcdJkVgEQ9ut/mCqjGCBO5IVwkXIkimxQQ+u6LGpFMT85QSGa
+E3L62gGfnybrDEexHzu0f+2p1vKnnSsXQYOF59WzEGvyzqII391Le5qhOkIAwFJCOycN9EHhimkF
++poe5AZeLV3kwds5LBCHIer+7Fyf3rqeycvkCQghXbEu4EhZR3y/VZPiPR3yRvACExQPR/OqII1a
++2rGKPS0CBJQ/1XP7JH+ppQLdEbX/Rl9rGRtm/SN7EewFeYCDWlMxakwb/0tvCdYNCm4pFr/24+Q
+IPKcQ/UC/yoXBSxYnA4qSBUWm4506nzInNjgpJsEzDKLWVjscv2OsmC6LwIRL6aP0W4V3EKaUZy4
+xSh2HxxfqXr95gCrh8gBpukuCKv+cD3fL5h2uFX3g+n4z4bt52pgtquz4NvMug3hjATHmNnOl8AY
+L0tq5lEYSueVXhv542eAsgehFCLv
+
+type: snap-declaration
+format: 5
+authority-id: appstore
+revision: 2
+series: 16
+snap-id: 4d709cc4c21d9177578b595485ec23ae
+plugs:
+  network:
+    allow-auto-connection: true
+    allow-installation: true
+  network-bind:
+    allow-auto-connection: true
+    allow-installation: true
+  network-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network-observe:
+    allow-auto-connection: true
+    allow-installation: true
+  network-setup-control:
+    allow-auto-connection: true
+    allow-installation: true
+  network-setup-observe:
+    allow-auto-connection: true
+    allow-installation: true
+  network-status:
+    allow-auto-connection: true
+    allow-installation: true
+  system-observe:
+    allow-auto-connection: true
+    allow-installation: true
+publisher-id: appstore
+snap-name: m2cp-message-hub
+timestamp: 2026-10-01T14:27:40.2183633Z
+sign-key-sha3-384: DQeIeGSalsp302IhEk9A8-M3YTiINOgGt4SoyGTsVTOxmccNW-rY_Iv9gNsVu3eN
+
+AcLBUgQAAQoABgUCar5t3QAAM7YQAJeLv9I92zPLObrzDPrL5JQdxlN4u96rMFXTWQS1KQGJ+EiB
+JBKusKfVt6gOJFm3bgVGOVX+YccjzwqOuQ9Uhl3FblWMoYlVTcccNF9eb7OM4rjWE9oMmsUW+d9N
+1DifpiMwjWmdHH3BhuHI60CHtACtqFXEkaeedcVOt6vgBoMWLAV+2Qk1m3aBs20Xf0amgdkFs/48
+WVT7FGaCzv/t7G77qAXNniNrunxjjoUFJJMpAwQ0TbfDfsP+3joG/ojVlgYSHryZYJMWq3aMA7BP
+1zxaXOAlCrSuNm8HRABnDXWz/Wd6PQF0+IiA0rotwmWu/A/AbatM1hvKskFq0RPYARahslVLLQDp
+91Ol5x+1cyIYj8MEZlSYao+XTdbAWC9UaXZDDVGVqYWPk+m/U4txytYD2icz1gYV4oqqGvxXu4aG
+IvHGNxKMfWFpMdMXFSVHq/3aQCnY1vyVd7PbBXL4JaNZ8Byfa9AX+R+hhajl0+S65Boi0FOHTEy3
+v0d9mPtPbInpHlOPfAwxZrZuQZsdGXGFU1z5ROMaFflz+MXSX/YQoMRE1f1rZm9/3Js7s+03cnTe
+gZ4awPRqGerwE8I+I1fgBAb9qglmPLXh6Q1wuap5ZQAH0EWeiZ/6uU5rbt9jH8/uRHEHkPeRqj6O
+Owb4YJq+g8yavHl3iCLs0oTyPGYR
