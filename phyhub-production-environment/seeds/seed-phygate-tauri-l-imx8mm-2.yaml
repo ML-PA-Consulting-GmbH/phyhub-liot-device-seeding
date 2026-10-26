@@ -12,10 +12,10 @@ snaps:
   version: 1.3.1
 - name: m2cp-gateway
   arch: arm64
-  version: 3.4.8
+  version: 3.6.1
 - name: m2cp-message-hub
   arch: arm64
-  version: 4.7.4
+  version: 4.8.0
 - name: liot-ota-rauc
   arch: arm64
   version: 0.6.2
